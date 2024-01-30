@@ -1,9 +1,14 @@
 * {
   box-sizing: border-box;
 }
-a {
+.menuLink {
   text-decoration: none;
   color: black;
+}
+
+#titleLink {
+  text-decoration: none;
+  color: #579987;
 }
 #container {
   font-family: "Work Sans", sans-serif;
@@ -124,7 +129,7 @@ button {
   color: black;
 }
 #barreInput {
-  height: 1px;
+  height: 0.5px;
   width: 90%;
   background-color: #b2b3b4;
   display: flex;
