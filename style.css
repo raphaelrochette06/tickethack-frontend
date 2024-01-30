@@ -1,7 +1,136 @@
-#container {
-  border: 4px black solid;
+* {
+  box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+#container {
+  font-family: "Work Sans", sans-serif;
+}
+
 #header {
-    border: 4px black solid;
-    
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+#bodyHome {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: #579987;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vh;
+}
+#content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  height: 275px;
+  width: 250px;
+  padding: 20px;
+}
+
+#content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  height: 275px;
+  width: 250px;
+  padding: 20px;
+  font-size: 12px;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10vw;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+#text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#search-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.train {
+  width: 80px;
+}
+#barreTrain {
+  height: 2px;
+  width: 80%;
+  background-color: #579987;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+input {
+  background-color: #f0f1f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 12px;
+}
+
+button {
+  background-color: #579987;
+  width: 100%;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+}
+
+#add-departure {
+  color: black;
+}
+#barreInput {
+  height: 1px;
+  width: 90%;
+  background-color: #b2b3b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin-bottom: 0px;
 }
