@@ -14,7 +14,7 @@ document.querySelector("#btn-search").addEventListener("click", () => {
       if (data.result === false) {
         document.querySelector("#no-tripFound").innerHTML += `
       <img class="train" src="images/notfound.png" />
-      <hr id="barreNotFound">
+      <hr id="barreTrain">
       <p>No trip found.</p>
 `;
       } else {
