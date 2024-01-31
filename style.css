@@ -116,7 +116,7 @@ input {
   font-size: 12px;
 }
 
-button {
+#btn-search {
   background-color: #579987;
   width: 100%;
   color: white;

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  .menuLink {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #titleLink {
+    text-decoration: none;
+    color: #579987;
+  }
+  
+  #container {
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  h1 {
+    color: #579987;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+  }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+  }
+  #menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  #bodyCart {
+    background-color: #f0f1f2;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 20vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
